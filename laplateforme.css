@@ -299,4 +299,91 @@ nav > ul li:hover .sous{
     left:1240px;
     top:1165px;
 
+}  .slider-container2 {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+    z-index:-1;
+}
+.menu2 {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu2 label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu2 label:hover,.menu2 label:focus {
+    background: #1c87c9;
+}
+.slide-input2{
+    opacity: 0;
+}
+.Agent2 {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .Agent2 {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+} .slider-container2 {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+}
+.menu2 {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu2 label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu2 label:hover,.menu2 label:focus {
+    background: #1c87c9;
+}
+.slide-input2{
+    opacity: 0;
+}
+.Agent2 {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .Agent2 {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
 }
