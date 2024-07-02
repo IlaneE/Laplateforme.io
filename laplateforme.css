@@ -1,0 +1,302 @@
+.Plate1 {
+    font-size: 48px;
+    font-family:monospace;
+    background-color: white;
+    color:rgb(34, 102, 238);
+    margin: 0%;
+    padding:3%;
+    
+} .acceuil {
+    background-color:rgb(0, 0, 255);
+} html, body {
+    ---margin: 0%;
+} *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: rgb(0, 60, 255);
+    border-bottom: 2px solid rgb(0, 204, 255);
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.MenuD > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 500px;
+} .STxt {
+    position: relative;
+    font-size: 28px;
+    color: white;
+    margin-right: 39%;
+    z-index: -1;
+} .bob:nth-of-type(1) {
+    position: absolute;
+    top: 190px;
+    left: 763.2px;
+    width: 500px;
+    height: 500px;
+    z-index: -1; 
+} .txt2 {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    margin-right: 39%;
+    z-index: -1;
+} .iep {
+    margin:0%;
+    height:400px;
+    background-color:rgb(58, 58, 58);
+} .iep2 {
+    margin:0%;
+    height:50px;
+    background-color:black;
+} .CopyR {
+    position:relative;
+    top:16px;
+    color: white;
+    text-align:center;
+} .list1 {
+    position:relative;
+    top:80px;
+    left:450px;
+    color:white;
+    margin-right:60%
+} .list2 {
+    position:absolute;
+    top:870px;
+    bottom:200px;
+    left:700px;
+    color:white;
+    margin-right:20%
+} .list3 {
+    position:absolute;
+    top:870px;
+    bottom:200px;
+    left:900px;
+    color:white;
+    margin-right:10%
+} .contact {
+    position:absolute;
+    top:980px;
+    bottom:200px;
+    left:900px;
+    color:white;
+    border: 2px solid white;
+    padding-bottom: 25px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+} .Contact {
+    text-decoration: none;
+    color:white;
+} .liens {
+    text-decoration:none;
+    color:white;
+} .testSe {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:orangered;
+    color:white;
+    text-decoration: none;
+} .Lapla {
+    max-width: 50%;
+    max-height: 50%;
+    width: 300px;
+    height:500px;
+    position:relative;
+    left:50px;
+} .ListeRe {
+    Max-height: 200px;
+    Max-width: 800px
+
+} .icon {
+    max-height: 35px;
+    max-width: 35px;
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+} .iep3 {
+    margin:0%;
+    height:400px;
+    background-color:rgb(58, 58, 58);
+} .iep4 {
+    margin:0%;
+    height:50px;
+    background-color:black;
+} .iep5 {
+    margin:0%;
+    height:400px;
+    background-color:rgb(58, 58, 58);
+} .iep6 {
+    margin:0%;
+    height:50px;
+    background-color:black;
+} .iep7 {
+    margin:0%;
+    height:400px;
+    background-color:rgb(58, 58, 58);
+} .iep8 {
+    margin:0%;
+    height:50px;
+    background-color:black;
+}  .slider-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+    z-index:-1;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+    background: #1c87c9;
+}
+.slide-input{
+    opacity: 0;
+}
+.Agent {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .Agent {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+} .slider-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    overflow: hidden;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,.menu label:focus {
+    background: #1c87c9;
+}
+.slide-input{
+    opacity: 0;
+}
+.Agent {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .Agent {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+} .meme {
+    border: 2px solid white;
+    border-color:white;
+    color: white;
+    position: absolute;
+    left:1240px;
+    top:1165px;
+
+}
